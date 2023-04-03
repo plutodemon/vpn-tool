@@ -1,0 +1,25 @@
+app_name = "ivs role auth"
+
+[db]
+type = "sqlite"
+[db.sqlite]
+path = "gorm.db"
+
+[db.mysql]
+username = "root"
+password = "root"
+host = "127.0.0.1"
+port = 3306
+[db.postgresql]
+username = "root"
+password = "root"
+host = "127.0.0.1"
+port = 3306
+
+[servers]
+[servers.https]
+host = "*"
+port = ":8080"
+[servers.grpc]
+host = "127.0.0.1"
+port = 8081
