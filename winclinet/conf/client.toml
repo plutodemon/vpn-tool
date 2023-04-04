@@ -1,0 +1,8 @@
+client_name = "client conf"
+
+[servers]
+auth_address = "8.142.156.167"
+auth_port = "8080"
+
+tcp_address = "8.142.156.167"
+tcp_port = "9000"
